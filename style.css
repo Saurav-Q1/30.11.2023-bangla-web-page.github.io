@@ -1,0 +1,36 @@
+/* custom fonts  */
+@font-face {
+  font-family: "Li Saboj Charulota Unicode";
+  src: url("LiSabojCharulotaUnicode.woff2") format("woff2"),
+    url("LiSabojCharulotaUnicode.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Li Mahfuz Himadri Unicode";
+  src: url("LiMahfuzHimadriUnicode.woff2") format("woff2"),
+    url("LiMahfuzHimadriUnicode.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* custom fonts  */
+.header-conainer img {
+  position: relative;
+  left: 35px;
+}
+.news-container {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+}
+
+.news-content h1 {
+  font-family: "Li Saboj Charulota Unicode";
+}
+.news-content p {
+  font-family: "Li Mahfuz Himadri Unicode";
+  font-size: 32px;
+}
